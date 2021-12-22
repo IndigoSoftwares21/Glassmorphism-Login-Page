@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+.main
+{
+    width: 100vw;
+    height: 100vh;
+    background: url(librarybig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container
+{
+    width: 400px;
+
+    height: 500px;
+
+    background: rgba(0, 0, 0, 0.3); /*VERY IMPORTANT*/
+
+    backdrop-filter: blur(5px); /*VERY IMPORTANT*/
+
+    border-radius: 15px;
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+h2
+{
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+input
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    align-self: center;
+    background: rgba(225, 225, 225, 0.3);
+    font-size: 20px;
+    
+    padding: 5px;
+    margin-top: 10px;
+}
+input::placeholder
+{
+    color: white;
+    opacity: 0.6;
+}
+button
+{
+    width: 150px;
+    height:40px;
+    background: rgba(225, 225, 225, 0.3);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+
+    font-size: 17px;
+    align-self: center;
+    margin-top: 20px;
+}
+button:hover
+{
+    border: 2px solid indigo;
+    background: rgba(100, 100, 100, 0.1);
+}
+p{
+    text-align: center;
+    color: white;
+}
+p a
+{
+    color: bisque;
+}
